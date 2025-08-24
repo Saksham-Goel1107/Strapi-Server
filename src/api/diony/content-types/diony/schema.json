@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "dionies",
+  "info": {
+    "singularName": "diony",
+    "pluralName": "dionies",
+    "displayName": "diony"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headerMedia": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

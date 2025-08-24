@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dions",
+  "info": {
+    "singularName": "dion",
+    "pluralName": "dions",
+    "displayName": "Dion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Date": {
+      "type": "date",
+      "required": true
+    }
+  }
+}
